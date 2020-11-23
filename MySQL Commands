@@ -1,0 +1,9 @@
+-create a database in MySQL with name info
+-create a table in MySQL with name infos
+
+CREATE DATABASE info;
+USE info;
+CREATE TABLE infos(
+    name VARCHAR(100) NOT NULL,
+    year INT NOT NULL
+);
